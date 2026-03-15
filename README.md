@@ -37,14 +37,12 @@ The main thesis-specific modifications include:
 - metadata-level manipulation through alternative tool naming
 - beacon-based execution logging for malicious tool calls
 - trust annotation via `security_level`
-- propagation of trust metadata into the retrieval and selection pipeline
-- retrieval logging for top-k candidate inspection
-- custom query sets for baseline and amplified conditions
+- new query sets for baseline and amplified conditions
 - patched runner scripts for reproducible Q1 and Q2 execution
 
 ## Running the Experiments
 
-Before execution, install the required dependencies and configure the necessary API keys either through environment variables or a local `.env` file.
+Before execution, install the required dependencies and configure the necessary API keys through a local `.env` file.
 
 Install dependencies:
 
