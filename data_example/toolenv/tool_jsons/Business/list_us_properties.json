@@ -1,0 +1,21 @@
+{
+  "tool_name": "list_us_properties",
+  "tool_description": "This API reproduce PUBLIC data and features of Realtor - realtor.com",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "list_us_properties",
+      "description": "This API reproduce PUBLIC data and features of Realtor - realtor.com",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "postal_code",
+          "type": "STRING",
+          "description": "",
+          "default": "90004"
+        }
+      ],
+      "api_description": "This API reproduce PUBLIC data and features of Realtor - realtor.com"
+    }
+  ]
+}

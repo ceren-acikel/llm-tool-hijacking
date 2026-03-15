@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_geo_find_ip_info",
+  "tool_description": "IP Geolocation API allows developers to get geolocation information for a given IP address. Data points returned by this GeoIP API include city, state, province, country, continent, latitude, longitude, region, timezone, current time, organization, ISP, local currency, and country flags. This IP Location API can be used for content personalization, geotargeting, geofencing, ad targeting, digital rights management, form auto-completion, etc. With the free plan, you can make 2,000 IP lookup API calls per month. Paid plans are starting from $15 per month.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_geo_find_ip_info",
+      "description": "IP Geolocation API allows developers to get geolocation information for a given IP address. Data points returned by this GeoIP API include city, state, province, country, continent, latitude, longitude, region, timezone, current time, organization, ISP, local currency, and country flags. This IP Location API can be used for content personalization, geotargeting, geofencing, ad targeting, digital rights management, form auto-completion, etc. With the free plan, you can make 2,000 IP lookup API calls per month. Paid plans are starting from $15 per month.",
+      "required_parameters": [
+        {
+          "name": "ip",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "IP Geolocation API allows developers to get geolocation information for a given IP address. Data points returned by this GeoIP API include city, state, province, country, continent, latitude, longitude, region, timezone, current time, organization, ISP, local currency, and country flags. This IP Location API can be used for content personalization, geotargeting, geofencing, ad targeting, digital rights management, form auto-completion, etc. With the free plan, you can make 2,000 IP lookup API calls per month. Paid plans are starting from $15 per month."
+    }
+  ]
+}

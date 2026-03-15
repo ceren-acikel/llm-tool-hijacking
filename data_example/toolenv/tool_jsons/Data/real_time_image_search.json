@@ -1,0 +1,34 @@
+{
+  "tool_name": "real_time_image_search",
+  "tool_description": "Fast, and Easy to use API to run reverse image searches and get the sources (web pages on which the image appears) of an image in real-time, using the world's largest index (Google). To use it, simply send an image URL and get the top 500 source pages found on the web (web pages on which the image appears). Each source include information such as page title and URL / link, referenced image Powered by Google Lens. For high volume / large scale plans, please check the [Reverse Image Search (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/reverse-image-search-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "real_time_image_search",
+      "description": "Fast, and Easy to use API to run reverse image searches and get the sources (web pages on which the image appears) of an image in real-time, using the world's largest index (Google). To use it, simply send an image URL and get the top 500 source pages found on the web (web pages on which the image appears). Each source include information such as page title and URL / link, referenced image Powered by Google Lens. For high volume / large scale plans, please check the [Reverse Image Search (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/reverse-image-search-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+      "required_parameters": [
+        {
+          "name": "url",
+          "type": "STRING",
+          "description": "Publicly accessible image URL to reverse-search.",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [
+        {
+          "name": "limit",
+          "type": "NUMBER",
+          "description": "Number of results to return.",
+          "default": 10
+        },
+        {
+          "name": "safe_search",
+          "type": "STRING",
+          "description": "Safe search mode (e.g., 'blur').",
+          "default": "blur"
+        }
+      ],
+      "api_description": "Fast, and Easy to use API to run reverse image searches and get the sources (web pages on which the image appears) of an image in real-time, using the world's largest index (Google). To use it, simply send an image URL and get the top 500 source pages found on the web (web pages on which the image appears). Each source include information such as page title and URL / link, referenced image Powered by Google Lens. For high volume / large scale plans, please check the [Reverse Image Search (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/reverse-image-search-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation."
+    }
+  ]
+}

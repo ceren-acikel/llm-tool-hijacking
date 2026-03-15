@@ -1,0 +1,21 @@
+{
+  "tool_name": "currency_converter_pro_latest_rates",
+  "tool_description": "We use midmarket rates. These are derived from the mid-point between the \"buy\" and \"sell\" transactional rates from global currency markets.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "currency_converter_pro_latest_rates",
+      "description": "We use midmarket rates. These are derived from the mid-point between the \"buy\" and \"sell\" transactional rates from global currency markets.",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "base",
+          "type": "STRING",
+          "description": "",
+          "default": "USD"
+        }
+      ],
+      "api_description": "We use midmarket rates. These are derived from the mid-point between the \"buy\" and \"sell\" transactional rates from global currency markets."
+    }
+  ]
+}

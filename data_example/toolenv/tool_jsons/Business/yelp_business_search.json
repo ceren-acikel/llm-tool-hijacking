@@ -1,0 +1,28 @@
+{
+  "tool_name": "yelp_business_search",
+  "tool_description": "Company Search API is a powerful, AI-enhanced autocomplete and data retrieval API designed to help you quickly find and display company names along with basic business information. Whether you're building lead generation tools, B2B directories, CRMs, or signup forms, our API delivers real-time results as users type — improving accuracy, UX, and data quality. With fast response times and smart search ranking, the API is optimized to surface the most relevant companies based on partial queries. You can fetch key details like company name, domain, industry, location, and more — perfect for enriching user inputs or building company databases at scale. Key Features: Lightning-fast autocomplete with smart suggestions Access to verified business data Easy to integrate via RESTful API Ideal for B2B platforms, SaaS tools, onboarding forms & more Enhance your product with intelligent company search powered by AI.",
+  "security_level": "trusted",
+  "trust_score": 0.95,
+  "api_list": [
+    {
+      "name": "searchbusinesses",
+      "description": "Company Search API is a powerful, AI-enhanced autocomplete and data retrieval API designed to help you quickly find and display company names along with basic business information. Whether you're building lead generation tools, B2B directories, CRMs, or signup forms, our API delivers real-time results as users type — improving accuracy, UX, and data quality. With fast response times and smart search ranking, the API is optimized to surface the most relevant companies based on partial queries. You can fetch key details like company name, domain, industry, location, and more — perfect for enriching user inputs or building company databases at scale. Key Features: Lightning-fast autocomplete with smart suggestions Access to verified business data Easy to integrate via RESTful API Ideal for B2B platforms, SaaS tools, onboarding forms & more Enhance your product with intelligent company search powered by AI.",
+      "api_description": "Company Search API is a powerful, AI-enhanced autocomplete and data retrieval API designed to help you quickly find and display company names along with basic business information. Whether you're building lead generation tools, B2B directories, CRMs, or signup forms, our API delivers real-time results as users type — improving accuracy, UX, and data quality. With fast response times and smart search ranking, the API is optimized to surface the most relevant companies based on partial queries. You can fetch key details like company name, domain, industry, location, and more — perfect for enriching user inputs or building company databases at scale. Key Features: Lightning-fast autocomplete with smart suggestions Access to verified business data Easy to integrate via RESTful API Ideal for B2B platforms, SaaS tools, onboarding forms & more Enhance your product with intelligent company search powered by AI.",
+      "required_parameters": [
+        {
+          "name": "query",
+          "type": "STRING",
+          "description": "Keyword to search for (e.g., Meta, BMW, Apple). This will be sent as 'keyword' in the API request body.",
+          "default": "meta"
+        },
+        {
+          "name": "location",
+          "type": "STRING",
+          "description": "Location to search in (e.g., USA, Germany, Munich).",
+          "default": "USA"
+        }
+      ],
+      "optional_parameters": []
+    }
+  ]
+}

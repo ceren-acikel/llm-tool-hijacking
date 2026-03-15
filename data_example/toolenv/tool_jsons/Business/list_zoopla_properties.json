@@ -1,0 +1,14 @@
+{
+  "tool_name": "list_zoopla_properties",
+  "tool_description": "This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "list_zoopla_properties",
+      "description": "This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com",
+      "required_parameters": [],
+      "optional_parameters": [],
+      "api_description": "This API helps to query for properties for rent, sale in UK to create a real estate site/application such as zoopla.com"
+    }
+  ]
+}

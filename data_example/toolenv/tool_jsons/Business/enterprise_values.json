@@ -1,0 +1,28 @@
+{
+  "tool_name": "enterprise_values",
+  "tool_description": "Financial Modeling Prep (FMP) is a leading provider of comprehensive data solutions. Our mission is to empower investment professionals with real-time and historical market data, reliable APIs, and a range of powerful tools to enhance their decision-making processes. Our API supports over 70,000 stocks across multiple global exchanges. We provide one of the most accurate data available on the market. Every endpoint is available in JSON format and most of them also in CSV format. Our API has over 150 endpoints and as well we provide on demand custom endpoints available to our enterprise clients. More docs on : https://financialmodelingprep.com/developer/docs https://financialmodelingprep.com/how-to/how-to-call-the-financial-modeling-prep-api-with-python",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "enterprise_values",
+      "description": "Financial Modeling Prep (FMP) is a leading provider of comprehensive data solutions. Our mission is to empower investment professionals with real-time and historical market data, reliable APIs, and a range of powerful tools to enhance their decision-making processes. Our API supports over 70,000 stocks across multiple global exchanges. We provide one of the most accurate data available on the market. Every endpoint is available in JSON format and most of them also in CSV format. Our API has over 150 endpoints and as well we provide on demand custom endpoints available to our enterprise clients. More docs on : https://financialmodelingprep.com/developer/docs https://financialmodelingprep.com/how-to/how-to-call-the-financial-modeling-prep-api-with-python",
+      "required_parameters": [
+        {
+          "name": "symbol",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [
+        {
+          "name": "period",
+          "type": "STRING",
+          "description": "",
+          "default": "quarter"
+        }
+      ],
+      "api_description": "Financial Modeling Prep (FMP) is a leading provider of comprehensive data solutions. Our mission is to empower investment professionals with real-time and historical market data, reliable APIs, and a range of powerful tools to enhance their decision-making processes. Our API supports over 70,000 stocks across multiple global exchanges. We provide one of the most accurate data available on the market. Every endpoint is available in JSON format and most of them also in CSV format. Our API has over 150 endpoints and as well we provide on demand custom endpoints available to our enterprise clients. More docs on : https://financialmodelingprep.com/developer/docs https://financialmodelingprep.com/how-to/how-to-call-the-financial-modeling-prep-api-with-python"
+    }
+  ]
+}

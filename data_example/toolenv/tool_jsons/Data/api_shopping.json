@@ -1,0 +1,33 @@
+{
+  "tool_name": "api_shopping",
+  "tool_description": "Fast, Reliable, and Extensive API for accessing Amazon product data, reviews, best sellers & deals, seller data, and more, in real time. The ideal choice for developers, marketers, and researchers who need to access up-to-date information about Amazon products and services. For high volume / large scale plans, please check the [Real-Time Amazon Data (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "real_time_amazon_search",
+      "description": "Fast, Reliable, and Extensive API for accessing Amazon product data, reviews, best sellers & deals, seller data, and more, in real time. The ideal choice for developers, marketers, and researchers who need to access up-to-date information about Amazon products and services. For high volume / large scale plans, please check the [Real-Time Amazon Data (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "query",
+          "type": "STRING",
+          "description": "",
+          "default": "iphone"
+        },
+        {
+          "name": "page",
+          "type": "STRING",
+          "description": "",
+          "default": "1"
+        },
+        {
+          "name": "country",
+          "type": "STRING",
+          "description": "",
+          "default": "US"
+        }
+      ],
+      "api_description": "Fast, Reliable, and Extensive API for accessing Amazon product data, reviews, best sellers & deals, seller data, and more, in real time. The ideal choice for developers, marketers, and researchers who need to access up-to-date information about Amazon products and services. For high volume / large scale plans, please check the [Real-Time Amazon Data (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation."
+    }
+  ]
+}

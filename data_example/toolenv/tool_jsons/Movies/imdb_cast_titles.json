@@ -1,0 +1,21 @@
+{
+  "tool_name": "imdb_cast_titles",
+  "tool_description": "IMDb API provides access to movie, TV show, and celebrity data, including titles, ratings, cast, crew, posters, and more.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "imdb_cast_titles",
+      "description": "IMDb API provides access to movie, TV show, and celebrity data, including titles, ratings, cast, crew, posters, and more.",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "nm_id",
+          "type": "STRING",
+          "description": "",
+          "default": "nm0000190"
+        }
+      ],
+      "api_description": "IMDb API provides access to movie, TV show, and celebrity data, including titles, ratings, cast, crew, posters, and more."
+    }
+  ]
+}

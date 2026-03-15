@@ -1,0 +1,27 @@
+{
+  "tool_name": "get_streaming_show",
+  "tool_description": "Look up which shows are available on Netflix, Amazon Prime Video, Disney+, HBO Max, Hulu, Peacock, Paramount+, Starz, Showtime, Apple TV, Mubi, Stan, Now, Wow, Crave, All 4, BBC iPlayer, BritBox, Hotstar, Zee5 and many other streaming services across 60 countries. Get deep links, top shows and more!",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_streaming_show",
+      "description": "Look up which shows are available on Netflix, Amazon Prime Video, Disney+, HBO Max, Hulu, Peacock, Paramount+, Starz, Showtime, Apple TV, Mubi, Stan, Now, Wow, Crave, All 4, BBC iPlayer, BritBox, Hotstar, Zee5 and many other streaming services across 60 countries. Get deep links, top shows and more!",
+      "required_parameters": [
+        {
+          "name": "show_type",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        },
+        {
+          "name": "show_id",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "Look up which shows are available on Netflix, Amazon Prime Video, Disney+, HBO Max, Hulu, Peacock, Paramount+, Starz, Showtime, Apple TV, Mubi, Stan, Now, Wow, Crave, All 4, BBC iPlayer, BritBox, Hotstar, Zee5 and many other streaming services across 60 countries. Get deep links, top shows and more!"
+    }
+  ]
+}

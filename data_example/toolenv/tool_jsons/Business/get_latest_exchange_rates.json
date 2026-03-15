@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_latest_exchange_rates",
+  "tool_description": "Currency Exchange Rate API",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_latest_exchange_rates",
+      "description": "Currency Exchange Rate API",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "base",
+          "type": "STRING",
+          "description": "",
+          "default": "EUR"
+        }
+      ],
+      "api_description": "Currency Exchange Rate API"
+    }
+  ]
+}

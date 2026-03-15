@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_ipwhois",
+  "tool_description": "Free for small projects. Our API is free for up to 1,000 requests per day (IP and Referer identification). Easy to integrate, based on your choice, the ipwhois API can deliver results in JSON, XML or Newline format. Our real-time geolocation API service is used by thousands of developers all around the world.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_ipwhois",
+      "description": "Free for small projects. Our API is free for up to 1,000 requests per day (IP and Referer identification). Easy to integrate, based on your choice, the ipwhois API can deliver results in JSON, XML or Newline format. Our real-time geolocation API service is used by thousands of developers all around the world.",
+      "required_parameters": [
+        {
+          "name": "ip",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "Free for small projects. Our API is free for up to 1,000 requests per day (IP and Referer identification). Easy to integrate, based on your choice, the ipwhois API can deliver results in JSON, XML or Newline format. Our real-time geolocation API service is used by thousands of developers all around the world."
+    }
+  ]
+}

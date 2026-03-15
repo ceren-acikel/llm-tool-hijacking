@@ -1,0 +1,14 @@
+{
+  "tool_name": "list_idealista_properties",
+  "tool_description": "Query for rent and sale properties in Spain, Italy, Portugal",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "list_idealista_properties",
+      "description": "Query for rent and sale properties in Spain, Italy, Portugal",
+      "required_parameters": [],
+      "optional_parameters": [],
+      "api_description": "Query for rent and sale properties in Spain, Italy, Portugal"
+    }
+  ]
+}

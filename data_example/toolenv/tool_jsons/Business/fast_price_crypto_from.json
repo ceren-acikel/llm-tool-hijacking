@@ -1,0 +1,27 @@
+{
+  "tool_name": "fast_price_crypto_from",
+  "tool_description": "Currency converter, Forex, offering up-to-date exchange rates for both 140+ fiat & 2000+ crypto currencies. It provides multiple endpoints to convert between fiat and crypto currencies, retrieve current exchange rates, and access supported currency symbols.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "fast_price_crypto_from",
+      "description": "Currency converter, Forex, offering up-to-date exchange rates for both 140+ fiat & 2000+ crypto currencies. It provides multiple endpoints to convert between fiat and crypto currencies, retrieve current exchange rates, and access supported currency symbols.",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "currency",
+          "type": "STRING",
+          "description": "",
+          "default": "BTC"
+        },
+        {
+          "name": "detailed",
+          "type": "STRING",
+          "description": "",
+          "default": "False"
+        }
+      ],
+      "api_description": "Currency converter, Forex, offering up-to-date exchange rates for both 140+ fiat & 2000+ crypto currencies. It provides multiple endpoints to convert between fiat and crypto currencies, retrieve current exchange rates, and access supported currency symbols."
+    }
+  ]
+}

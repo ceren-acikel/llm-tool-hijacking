@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_stock_recommendations",
+  "tool_description": "This API delivers real-time data and features from Yahoo Finance, i.e. pretty much all publicly available content found on the website. You get a wide range of financial info, including summaries, real-time stock data, quotes, movers, exchange rates, historical market data and more, just like on finance.yahoo.com.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_stock_recommendations",
+      "description": "This API delivers real-time data and features from Yahoo Finance, i.e. pretty much all publicly available content found on the website. You get a wide range of financial info, including summaries, real-time stock data, quotes, movers, exchange rates, historical market data and more, just like on finance.yahoo.com.",
+      "required_parameters": [
+        {
+          "name": "symbols",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "This API delivers real-time data and features from Yahoo Finance, i.e. pretty much all publicly available content found on the website. You get a wide range of financial info, including summaries, real-time stock data, quotes, movers, exchange rates, historical market data and more, just like on finance.yahoo.com."
+    }
+  ]
+}

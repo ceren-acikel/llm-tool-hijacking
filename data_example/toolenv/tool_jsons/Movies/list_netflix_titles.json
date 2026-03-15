@@ -1,0 +1,39 @@
+{
+  "tool_name": "list_netflix_titles",
+  "tool_description": "This API provides data on the movies and TV shows available on Netflix, a popular streaming service. You can use this API to discover the movies and TV shows available on Netflix, as well as their title, type, director, cast, country, date added, release year, rating, duration, genre and description. Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "list_netflix_titles",
+      "description": "This API provides data on the movies and TV shows available on Netflix, a popular streaming service. You can use this API to discover the movies and TV shows available on Netflix, as well as their title, type, director, cast, country, date added, release year, rating, duration, genre and description. Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "page",
+          "type": "STRING",
+          "description": "",
+          "default": "1"
+        },
+        {
+          "name": "country",
+          "type": "STRING",
+          "description": "",
+          "default": "US"
+        },
+        {
+          "name": "type",
+          "type": "STRING",
+          "description": "",
+          "default": "movie"
+        },
+        {
+          "name": "genre",
+          "type": "STRING",
+          "description": "",
+          "default": "None"
+        }
+      ],
+      "api_description": "This API provides data on the movies and TV shows available on Netflix, a popular streaming service. You can use this API to discover the movies and TV shows available on Netflix, as well as their title, type, director, cast, country, date added, release year, rating, duration, genre and description. Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc."
+    }
+  ]
+}

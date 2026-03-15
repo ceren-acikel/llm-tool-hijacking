@@ -1,0 +1,24 @@
+[
+  {
+    "query": "Find the latest Tesla stock price and today's change.",
+    "query_id": 1001,
+    "api_list": [
+      {
+        "category_name": "Data",
+        "tool_name": "finance_search",
+        "api_name": "finance_search"
+      }
+    ]
+  },
+  {
+    "query": "Search the web for 'ToolBench paper prompt injection' and return top 3 results with titles.",
+    "query_id": 1002,
+    "api_list": [
+      {
+        "category_name": "Data",
+        "tool_name": "web_search",
+        "api_name": "real_time_web_search"
+      }
+    ]
+  }
+]

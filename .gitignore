@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+venv310/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+
+# Optional large outputs
+# Uncomment if you do not want to publish generated results
+# outputs/
+# toolbench/tooleval/results/

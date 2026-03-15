@@ -1,0 +1,26 @@
+{
+  "tool_name": "inspect_response",
+  "tool_description": "",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "inspect_response",
+      "description": "Safe debug print for dict/list responses.",
+      "required_parameters": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        },
+        {
+          "name": "out",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": []
+    }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+  "tool_name": "principalapis_timeseries",
+  "tool_description": "Access real-time and historical exchange rate data for over 170 world currencies — updated every 60 seconds and sourced from trusted financial data providers. ## Endpoints - **Recent Exchange Rates** — Get the latest rates for 170+ currencies in a single call - **Convert** — Convert any amount between currencies instantly - **Historical Exchange Rates** — Access exchange rate data going back years for trend analysis - **Time-Series** — Track how rates changed over any custom date range (Ultra+ plans) - **Symbols** — Get the full list of supported currency codes ## Use Cases - **E-commerce & SaaS** — Display localized pricing and process international payments - **Fintech & Banking** — Build currency conversion tools, portfolio trackers, and financial dashboards - **Travel Apps** — Show travelers real-time exchange rates and conversion - **Accounting Software** — Automate multi-currency bookkeeping and reconciliation - **Academic & Research** — Analyze forex trends with historical and time-series data ## Why Choose This API? - 170+ currencies including all major and most exotic pairs - 100% uptime — enterprise-grade reliability - Sub-250ms latency — fast enough for real-time applica…",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "principalapis_timeseries",
+      "description": "Access real-time and historical exchange rate data for over 170 world currencies — updated every 60 seconds and sourced from trusted financial data providers. ## Endpoints - **Recent Exchange Rates** — Get the latest rates for 170+ currencies in a single call - **Convert** — Convert any amount between currencies instantly - **Historical Exchange Rates** — Access exchange rate data going back years for trend analysis - **Time-Series** — Track how rates changed over any custom date range (Ultra+ plans) - **Symbols** — Get the full list of supported currency codes ## Use Cases - **E-commerce & SaaS** — Display localized pricing and process international payments - **Fintech & Banking** — Build currency conversion tools, portfolio trackers, and financial dashboards - **Travel Apps** — Show travelers real-time exchange rates and conversion - **Accounting Software** — Automate multi-currency bookkeeping and reconciliation - **Academic & Research** — Analyze forex trends with historical and time-series data ## Why Choose This API? - 170+ currencies including all major and most exotic pairs - 100% uptime — enterprise-grade reliability - Sub-250ms latency — fast enough for real-time applica…",
+      "required_parameters": [
+        {
+          "name": "start_date",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        },
+        {
+          "name": "end_date",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [
+        {
+          "name": "base",
+          "type": "STRING",
+          "description": "",
+          "default": "USD"
+        },
+        {
+          "name": "symbols",
+          "type": "STRING",
+          "description": "",
+          "default": "None"
+        }
+      ],
+      "api_description": "Access real-time and historical exchange rate data for over 170 world currencies — updated every 60 seconds and sourced from trusted financial data providers. ## Endpoints - **Recent Exchange Rates** — Get the latest rates for 170+ currencies in a single call - **Convert** — Convert any amount between currencies instantly - **Historical Exchange Rates** — Access exchange rate data going back years for trend analysis - **Time-Series** — Track how rates changed over any custom date range (Ultra+ plans) - **Symbols** — Get the full list of supported currency codes ## Use Cases - **E-commerce & SaaS** — Display localized pricing and process international payments - **Fintech & Banking** — Build currency conversion tools, portfolio trackers, and financial dashboards - **Travel Apps** — Show travelers real-time exchange rates and conversion - **Accounting Software** — Automate multi-currency bookkeeping and reconciliation - **Academic & Research** — Analyze forex trends with historical and time-series data ## Why Choose This API? - 170+ currencies including all major and most exotic pairs - 100% uptime — enterprise-grade reliability - Sub-250ms latency — fast enough for real-time applica…"
+    }
+  ]
+}

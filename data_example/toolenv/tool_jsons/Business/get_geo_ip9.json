@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_geo_ip9",
+  "tool_description": "geolocation api",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_geo_ip9",
+      "description": "geolocation api",
+      "required_parameters": [
+        {
+          "name": "ip",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "geolocation api"
+    }
+  ]
+}

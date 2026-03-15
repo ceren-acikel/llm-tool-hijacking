@@ -1,0 +1,45 @@
+{
+  "tool_name": "latest_news",
+  "tool_description": "Use this API to get the top news globally or per topic and search for news by query and geographic area. Powered by Google News. For high volume / large scale plans, please check the [Real-Time News Data (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-news-data-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+  "security_level": "untrusted",
+  "api_list": [
+    {
+      "name": "latest_news",
+      "description": "Use this API to get the top news globally or per topic and search for news by query and geographic area. Powered by Google News. For high volume / large scale plans, please check the [Real-Time News Data (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-news-data-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+      "required_parameters": [
+        {
+          "name": "query",
+          "type": "STRING",
+          "description": "Search term. Must be non-empty. Example: 'OpenAI model release'."
+        }
+      ],
+      "optional_parameters": [
+        {
+          "name": "limit",
+          "type": "STRING",
+          "description": "",
+          "default": "10"
+        },
+        {
+          "name": "country",
+          "type": "STRING",
+          "description": "",
+          "default": "US"
+        },
+        {
+          "name": "lang",
+          "type": "STRING",
+          "description": "",
+          "default": "en"
+        },
+        {
+          "name": "run_id",
+          "type": "STRING",
+          "description": "",
+          "default": "None"
+        }
+      ],
+      "api_description": "Use this API to get the top news globally or per topic and search for news by query and geographic area. Powered by Google News. For high volume / large scale plans, please check the [Real-Time News Data (Mega) API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-news-data-mega) or contact us on support@openwebninja.com. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation."
+    }
+  ]
+}

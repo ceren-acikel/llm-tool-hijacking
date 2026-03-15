@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_geo_api6",
+  "tool_description": "## 🌍 What Is This API and Why Would You Use It? Every device connected to the internet has an IP address. That address holds a lot of useful information — like **where in the world the user is**, **what kind of network they're on**, and **who owns or operates that IP**. This API lets you take any IP address and instantly get detailed information about it. Just make one simple request, and you'll know: - The **location** (city, region, country, coordinates) - The **internet provider or company** behind it - Whether it's part of a **VPN**, **proxy**, or **hosting** service - If it's from a **mobile network** or **data center** - Contact info in case the IP is involved in **spam or abuse** - And even some **sample domains** hosted on that IP --- ## 🧠 Why Is This Useful? Here are some real-world uses: ### ✅ Improve Security Spot suspicious logins, block known data center IPs, or flag traffic coming from proxies, VPNs, or TOR networks. ### 🌎 Personalize User Experience Show local content, language, or currency to users based on their location — no need for them to tell you where they are. ### 🕵️‍♂️ Detect Fraud Catch login attempts or orders coming from unexpected regions — like when a…",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_geo_api6",
+      "description": "## 🌍 What Is This API and Why Would You Use It? Every device connected to the internet has an IP address. That address holds a lot of useful information — like **where in the world the user is**, **what kind of network they're on**, and **who owns or operates that IP**. This API lets you take any IP address and instantly get detailed information about it. Just make one simple request, and you'll know: - The **location** (city, region, country, coordinates) - The **internet provider or company** behind it - Whether it's part of a **VPN**, **proxy**, or **hosting** service - If it's from a **mobile network** or **data center** - Contact info in case the IP is involved in **spam or abuse** - And even some **sample domains** hosted on that IP --- ## 🧠 Why Is This Useful? Here are some real-world uses: ### ✅ Improve Security Spot suspicious logins, block known data center IPs, or flag traffic coming from proxies, VPNs, or TOR networks. ### 🌎 Personalize User Experience Show local content, language, or currency to users based on their location — no need for them to tell you where they are. ### 🕵️‍♂️ Detect Fraud Catch login attempts or orders coming from unexpected regions — like when a…",
+      "required_parameters": [
+        {
+          "name": "ip",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "## 🌍 What Is This API and Why Would You Use It? Every device connected to the internet has an IP address. That address holds a lot of useful information — like **where in the world the user is**, **what kind of network they're on**, and **who owns or operates that IP**. This API lets you take any IP address and instantly get detailed information about it. Just make one simple request, and you'll know: - The **location** (city, region, country, coordinates) - The **internet provider or company** behind it - Whether it's part of a **VPN**, **proxy**, or **hosting** service - If it's from a **mobile network** or **data center** - Contact info in case the IP is involved in **spam or abuse** - And even some **sample domains** hosted on that IP --- ## 🧠 Why Is This Useful? Here are some real-world uses: ### ✅ Improve Security Spot suspicious logins, block known data center IPs, or flag traffic coming from proxies, VPNs, or TOR networks. ### 🌎 Personalize User Experience Show local content, language, or currency to users based on their location — no need for them to tell you where they are. ### 🕵️‍♂️ Detect Fraud Catch login attempts or orders coming from unexpected regions — like when a…"
+    }
+  ]
+}

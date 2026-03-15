@@ -1,0 +1,40 @@
+{
+  "tool_name": "best_web_search",
+  "tool_description": "The Real-Time Web Search API is one of the fastest, most scalable, and affordable, organic SERP, AI Overviews, and AI Mode API available on market today. Seamlessly query the most popular search engine and get up to 300 results at once with no additional charge. In addition, the Real-Time Web Search API supports batching of up to 100 queries using the Search (Bulk) endpoint. Powered by Google Search. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+  "security_level": "untrusted",
+  "api_list": [
+    {
+      "name": "best_web_search",
+      "description": "The Real-Time Web Search API is one of the fastest, most scalable, and affordable, organic SERP, AI Overviews, and AI Mode API available on market today. Seamlessly query the most popular search engine and get up to 300 results at once with no additional charge. In addition, the Real-Time Web Search API supports batching of up to 100 queries using the Search (Bulk) endpoint. Powered by Google Search. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation.",
+      "required_parameters": [
+        {
+          "name": "query",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [
+        {
+          "name": "page",
+          "type": "STRING",
+          "description": "",
+          "default": "1"
+        },
+        {
+          "name": "country",
+          "type": "STRING",
+          "description": "",
+          "default": "US"
+        },
+        {
+          "name": "run_id",
+          "type": "STRING",
+          "description": "",
+          "default": "None"
+        }
+      ],
+      "api_description": "The Real-Time Web Search API is one of the fastest, most scalable, and affordable, organic SERP, AI Overviews, and AI Mode API available on market today. Seamlessly query the most popular search engine and get up to 300 results at once with no additional charge. In addition, the Real-Time Web Search API supports batching of up to 100 queries using the Search (Bulk) endpoint. Powered by Google Search. **Do you need help with API integration in your projects?** - **Email us:** support@openwebninja.com - **Chat with us live on Discord:** https://discord.gg/wxJxGsZgha 👉 **Like our API and service? Drop us a review** on [Trustpilot](https://www.trustpilot.com/evaluate/openwebninja.com), [G2](https://www.g2.com/products/openweb-ninja/reviews), or [Gartner Peer Insights](https://www.gartner.com/reviews/market/application-development/vendor/openweb-ninja) and we'll be happy to give 20% off any standard plan as a gesture of our appreciation."
+    }
+  ]
+}

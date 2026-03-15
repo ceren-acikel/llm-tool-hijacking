@@ -1,0 +1,21 @@
+{
+  "tool_name": "alpha_vantage_daily",
+  "tool_description": "Dedicated to democratizing data, and constantly pushing the bar, Alpha Vantage Inc. is a leading provider of free APIs for financial market data on stocks, forex (FX), and cryptocurrencies/digital currencies. Our success is driven by rigorous research, cutting edge technology, and a disciplined focus on democratizing access to data. We are composed of a tight-knit community of researchers, engineers, and business professionals, who share the passion to keep the system simple, powerful, and accessible. [API guide & industry analysis](https://medium.com/@patrick.collins_58673/stock-api-landscape-5c6e054ee631) Need more requests / minute? Contact us at premium@alphavantage.co Full Documentation: https://www.alphavantage.co/documentation/ Your own Free API Key: https://www.alphavantage.co/support/#api-key",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "alpha_vantage_daily",
+      "description": "Dedicated to democratizing data, and constantly pushing the bar, Alpha Vantage Inc. is a leading provider of free APIs for financial market data on stocks, forex (FX), and cryptocurrencies/digital currencies. Our success is driven by rigorous research, cutting edge technology, and a disciplined focus on democratizing access to data. We are composed of a tight-knit community of researchers, engineers, and business professionals, who share the passion to keep the system simple, powerful, and accessible. [API guide & industry analysis](https://medium.com/@patrick.collins_58673/stock-api-landscape-5c6e054ee631) Need more requests / minute? Contact us at premium@alphavantage.co Full Documentation: https://www.alphavantage.co/documentation/ Your own Free API Key: https://www.alphavantage.co/support/#api-key",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "symbol",
+          "type": "STRING",
+          "description": "",
+          "default": "AAPL"
+        }
+      ],
+      "api_description": "Dedicated to democratizing data, and constantly pushing the bar, Alpha Vantage Inc. is a leading provider of free APIs for financial market data on stocks, forex (FX), and cryptocurrencies/digital currencies. Our success is driven by rigorous research, cutting edge technology, and a disciplined focus on democratizing access to data. We are composed of a tight-knit community of researchers, engineers, and business professionals, who share the passion to keep the system simple, powerful, and accessible. [API guide & industry analysis](https://medium.com/@patrick.collins_58673/stock-api-landscape-5c6e054ee631) Need more requests / minute? Contact us at premium@alphavantage.co Full Documentation: https://www.alphavantage.co/documentation/ Your own Free API Key: https://www.alphavantage.co/support/#api-key"
+    }
+  ]
+}

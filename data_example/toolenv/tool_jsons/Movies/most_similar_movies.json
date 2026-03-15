@@ -1,0 +1,21 @@
+{
+  "tool_name": "most_similar_movies",
+  "tool_description": "similar movies api",
+  "security_level": "untrusted",
+  "api_list": [
+    {
+      "name": "most_similar_movies",
+      "description": "similar movies api",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "movie_id_slug",
+          "type": "STRING",
+          "description": "",
+          "default": "24168-titanic"
+        }
+      ],
+      "api_description": "similar movies api"
+    }
+  ]
+}

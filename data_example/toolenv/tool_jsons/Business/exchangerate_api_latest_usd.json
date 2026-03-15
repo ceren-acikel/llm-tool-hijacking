@@ -1,0 +1,21 @@
+{
+  "tool_name": "exchangerate_api_latest_usd",
+  "tool_description": "ExchangeRate-API.com has been providing a popular & reliable currency conversion API for over 10 years. All 160 major world currencies are supported and responses are readable JSON. Tens of thousands of developers have picked ExchangeRate-API.com for its exceptional long term uptime record, reliable data and simple lightweight request formats - you should give it a try!",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "exchangerate_api_latest_usd",
+      "description": "ExchangeRate-API.com has been providing a popular & reliable currency conversion API for over 10 years. All 160 major world currencies are supported and responses are readable JSON. Tens of thousands of developers have picked ExchangeRate-API.com for its exceptional long term uptime record, reliable data and simple lightweight request formats - you should give it a try!",
+      "required_parameters": [],
+      "optional_parameters": [
+        {
+          "name": "base",
+          "type": "STRING",
+          "description": "",
+          "default": "USD"
+        }
+      ],
+      "api_description": "ExchangeRate-API.com has been providing a popular & reliable currency conversion API for over 10 years. All 160 major world currencies are supported and responses are readable JSON. Tens of thousands of developers have picked ExchangeRate-API.com for its exceptional long term uptime record, reliable data and simple lightweight request formats - you should give it a try!"
+    }
+  ]
+}

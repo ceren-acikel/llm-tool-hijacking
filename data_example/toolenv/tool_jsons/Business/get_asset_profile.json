@@ -1,0 +1,21 @@
+{
+  "tool_name": "get_asset_profile",
+  "tool_description": "The worlds cheapest Realtime stock data provider",
+  "security_level": "trusted",
+  "api_list": [
+    {
+      "name": "get_asset_profile",
+      "description": "The worlds cheapest Realtime stock data provider",
+      "required_parameters": [
+        {
+          "name": "ticker",
+          "type": "STRING",
+          "description": "",
+          "default": ""
+        }
+      ],
+      "optional_parameters": [],
+      "api_description": "The worlds cheapest Realtime stock data provider"
+    }
+  ]
+}
