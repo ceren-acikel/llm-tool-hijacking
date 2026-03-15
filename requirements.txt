@@ -28,3 +28,4 @@ termcolor
 flask
 flask_cors
 huggingface_hub>=0.20
+tqdm
